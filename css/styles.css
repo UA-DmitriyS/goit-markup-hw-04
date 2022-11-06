@@ -301,11 +301,14 @@ img {
 
 /* ===============footer=============== */
 .ftr {
-  display: block;
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #2f303a;
 }
+
 .logo-ftr {
   display: block;
   margin-bottom: 20px;
@@ -393,7 +396,6 @@ img {
 .footer {
   display: flex;
   align-items: baseline;
-  justify-content: center;
 }
 .link-ftr {
   margin-left: 70px;
@@ -413,6 +415,7 @@ img {
   gap: 30px;
   align-items: center;
 }
+
 .clients-border {
   justify-content: center;
   align-items: center;
@@ -421,7 +424,7 @@ img {
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  fill: #757575;
+  fill: #afb1b8;
 }
 .clients-border:hover,
 .clients-border:focus {
